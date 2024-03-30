@@ -1,4 +1,4 @@
-# AdaFruit I2C Capacitive Soil Moisture Sensor
+# AdaFruit I2C Capacitive Soil Moisture Sensor for the esp32
 
 Adafruit Capacitive Soil Moisture Sensor for esp32 as an esp-idf component. This Adafruit Capacitive Soil Moisture sensor, unlike most others on the market is an I2C peripherial (and it works!).
 
