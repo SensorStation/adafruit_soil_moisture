@@ -1,5 +1,9 @@
 # adafruit_soilmoisture
-Adafruit Soil Moisture Sensor for esp32 esp-idf component
+Adafruit Capacitive Soil Moisture Sensor for esp32 as an esp-idf component. 
+
+This Adafruit Capacitive Soil Moisture sensor, unlike most others on the market is an I2C peripherial (and it works!).
+
+The I2C interface is based on the Adafruit I2C SeeSaw module. The code here takes just enough of the SeeSaw library code / algorithm really to implement the capacitive touch sensor and the temprature directly as an esp-idf component vs. the Arduino version supplied directly by the wonderful people at Adafruit.
 
 ## Example Usage
 
