@@ -30,4 +30,7 @@ public:
     int16_t     get_moisture();
     float       get_tempc();
     float       get_tempf();
+
+    esp_err_t   get_error() { return _err; }
+    void        reset_error() { _err = ESP_OK; }
 };
